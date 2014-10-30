@@ -1,0 +1,582 @@
+/* James Greve 2014 */
+
+header {
+    background-color: #000;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 100;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+a {
+    color: #ddd;
+}
+
+a:hover {
+    color: #ddd;
+    text-decoration: none;
+}
+
+p {
+    color: #777;
+    font-size: 16px;
+}
+
+hr {
+    width: 100%;
+}
+
+nav {
+    float: right;
+    height: 80px;
+    margin: 15px 0;
+    padding: 15px 0;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #999;
+    margin: 0 5px;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+nav .home {
+    color: #fff;
+}
+
+.title {
+    float: left;
+    margin: 15px 0 15px 20px;
+    height: 80px;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 10px 20px 10px 20px;
+    transition: .3s;
+    background-color: #000;
+    color: #fff;
+}
+
+.home {
+    padding: 13px 20px 13px 20px;
+    margin-right: 10px;
+    line-height: 42px;
+}
+
+.preorder {
+    border: 1px solid #fff;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.preorder:hover {
+    color: #ffc22a;
+    border: 1px solid #ffc22a;
+}
+
+.box {
+    width: 240px;
+    height: 240px;
+    vertical-align: middle;
+    margin: 40px 10px 40px 10px;
+    display: inline-block;
+}
+
+.video {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.box span {
+    color: #fff;
+}
+
+.box i {
+    z-index: 1;
+}
+
+.boxbox {
+    max-width: 800px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.first {
+    background-color: #000;
+    padding-top: 110px;
+}
+
+.first h1 {
+    font-size: 2.5em;
+    letter-spacing: .15em;
+    text-transform: none;
+}
+
+.first p {
+    font-family: 'Lato';
+    max-width: 30%;
+    display: block;
+}
+
+.first a {
+    color: #777;
+    font-weight: 300;
+}
+
+.first p a:hover {
+    font-weight: 300;
+    color: #aaa;
+}
+
+.first .btn {
+    color: #fff;
+    padding: 15px 30px 15px 30px;
+}
+
+.first .btn:hover {
+    color: #ffc22a;
+}
+
+.iframe {
+    display: none;
+}
+
+.hero {
+    width: 820px;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.herotext {
+    padding-top: 150px;
+    max-width: 700px;
+    margin-bottom: 50px;
+    text-align: left;
+    position: absolute;
+}
+
+.herotext p {
+    max-width: 360px;
+    font-weight: 300;
+    font-size: 1.3em;
+    color: #888;
+}
+
+.herotext a {
+    margin-top: 20px;
+}
+
+.heroimg {
+    float: right;
+    margin-bottom: 2px;
+}
+
+.second h2 {
+    color: #999;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+.tiles {
+    width: 100%;
+}
+
+.carousel-caption {
+    z-index: 1;
+}
+
+.ninth .preorder {
+    padding: 15px 25px 15px 25px;
+    font-size: 24px;
+    font-weight: 200;
+    background-color: #111;
+    margin: 0 auto;
+}
+
+
+.third, .fifth, .seventh, .eighth, .ninth {
+    background: url("../img/maze-black.png");
+    background-color: #000; 
+}
+
+.second h1, .fourth h1, .sixth h1 {
+    color: #000;
+    margin: 60px 0 15px 0;
+}
+
+.tiles {
+    min-height: 230px;
+}
+
+.fourth h1 {
+    margin-bottom: 50px;
+}
+
+.fifth {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.fifth h1 {
+    margin: 50px 0;
+}
+
+.fifth img {
+    max-width: 45%;
+}
+
+.second p {
+    margin: 0px auto 60px auto;
+    font-weight: 200;
+    font-size: 1.2em;
+    max-width: 70%;
+    color: #999;
+}
+
+.second, .fourth, .sixth {
+    background-color: #fff;
+}
+
+.first img, .second img, .fourth img, .fifth img, .sixth img, .eighth img, .ninth img {
+    display: inline-block;
+}
+
+.sixth p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #999;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.sixth img {
+    margin-bottom: 50px;
+}
+
+.seventh {
+    overflow: hidden;
+}
+
+.seventh p {
+    margin: 0 auto;
+    max-width: 700px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.item {
+    min-height: 270px;
+}
+
+.item img {
+    min-height: 270px;
+}
+
+.eighth {
+    padding-top: 60px;
+}
+
+.eighth h1 {
+    margin-bottom: 50px;
+}
+
+.ninth h1 {
+    padding-top: 50px;
+}
+
+.ninth .btn {
+    margin: 50px 0;
+}
+
+.ninth img {
+    margin-bottom: 50px;
+}
+
+.ninth .preorder {
+    background: transparent;
+}
+
+footer {
+    background: url("../img/maze-black.png");
+    background-color: #000;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+footer a, footer span {
+    color: #999;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*
+/* Checkout Page */
+
+
+.checkout {
+    padding-top: 180px;
+    background-color: #000;
+    padding-bottom: 240px;
+}
+
+.checkout h1 {
+    text-transform: none;
+
+}
+
+.checkouthero {
+    width: 1000px;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.checkouttext {
+    padding-top: 50px;
+    width: 300px;
+    margin-bottom: 50px;
+    text-align: left;
+    float: left;
+    display: block;
+}
+
+.checkoutright {
+    float: left;
+    width: 300px;
+    text-align: right;
+}
+
+.price {
+    margin-top: 30px;
+    font-size: 5em;
+}
+
+.checkoutimg {
+    float: left;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.checkoutimg img {
+    width: 250px;
+}
+
+.quantitytext {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.quantity {
+    width: 50px;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #666;
+    transition: .5s;
+}
+
+.quantity:focus {
+    outline: none;
+    border: 2px solid #fff;
+}
+
+.email {
+    width: 100%;
+    background-color: #000;
+    line-height: 2em;
+    color: #fff;
+    border: 2px solid #666;
+    transition: .5s;
+}
+
+.email:focus {
+    border: 2px solid #fff;
+    outline: none;
+}
+
+.each {
+    font-size: 18px;
+}
+
+.checkbox {
+    float: left;
+}
+
+.dropdown-menu {
+    min-width: 50px;
+}
+
+.continue {
+    margin-top: 100px;
+}
+
+/*
+/* Confirmation Page */
+
+.confirm {
+    display: inline-block;
+}
+
+.confirm img {
+    margin: 0 auto;
+}
+
+/*
+/* Media Queries */
+
+@media (max-width: 1020px) {
+    .checkouthero {
+        width: 650px;
+    }
+}
+
+@media (max-width: 720px) {
+    h1 {
+        font-size: 24px;
+    }
+    header {
+        text-align: center;
+        position: relative;
+    }
+    nav {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    nav a {
+        margin: 5px auto 0 auto;
+        padding-top: 10px;
+        display: block;
+    }
+    nav {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    nav a:first-child {
+        display: none;
+    }
+    nav a.home {
+        display: inline;
+    }
+    nav .btn {
+        margin-bottom: 10px;
+    }
+    .title {
+        display: inline-block;
+        margin: 0;
+    }
+    .titlespan {
+        display: inline-block;
+    }
+    .hero {
+        width: auto;
+    }
+    .herotext {
+        padding: 20px 0;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .first {
+        padding-top: 10px;
+    }
+    .checkout {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .home {
+        margin: 0;
+    }
+    .checkouthero {
+        width: auto;
+    }
+    .checkoutimg {
+        float: none;
+        display: inline-block;
+    }
+    .checkouttext {
+        text-align: center;
+        display: inline-block;
+        float: none;
+    }
+    .checkoutright {
+        width: 100%;
+        text-align: center;
+    }
+    .continue {
+        margin-top: 40px;
+    }
+    .preorder {
+        margin-right: 0;
+    }
+    .install span {
+        width: 100%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 16px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+    .box {
+        width: 180px;
+        height: 240px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .box h2 {
+        font-size: 1em;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .box p {
+        text-align: justify;
+    }
+    .sixth img {
+        max-width: 50%;
+    }
+    .eighth h1, .ninth h1 {
+        font-size: 1.4em;
+    }
+    .fa-4x {
+        font-size: 2em;
+    }
+    .confirm {
+        margin-bottom: 180px;
+    }
+}
